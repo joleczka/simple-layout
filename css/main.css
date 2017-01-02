@@ -1,0 +1,48 @@
+.wrap {
+    width: 90%;
+    margin: 0 5%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+}
+
+footer#rest {
+    clear: both;
+}
+
+/* Small devices */
+@media only screen and (min-width: 480px) {
+    nav#bar li {
+        display: inline-block;
+    }
+}
+
+/* Medium devices */
+@media only screen and (min-width: 768px) {
+    section#main {
+        float: left;
+        width: 57%;
+    }
+
+    aside#extra {
+        float: right;
+        width: 28%;
+    }
+}
+
+/* Large devices */
+@media only screen and (min-width: 1140px) {
+    .wrap {
+        width: 1026px;
+        margin: 0 auto;
+    }
+}
